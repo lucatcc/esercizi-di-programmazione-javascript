@@ -17,3 +17,13 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 77;
+var inLine = 2;
+var lines = Math.ceil(cats/inLine);
+var missings = inLine*lines-cats;
+var rest = cats%inLine;
+
+console.log(lines);
+console.log(rest);
+console.log(missings);
+console.log(cats + ' gatti in fila per ' + inLine + ' col resto di ' + rest + ' e ne manca ' + missings)

@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var bornDate = 1994;
+var currDate = 2020;
+var diffDate = currDate-bornDate;
+var hundDate = 100;
+var missDate = hundDate-(currDate-bornDate);
+
+console.log(' Luca ha ' + diffDate + ' anni e gliene mancano ' + missDate + ' per arrivare a 100 ');
